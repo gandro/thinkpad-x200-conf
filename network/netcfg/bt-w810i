@@ -1,0 +1,4 @@
+CONNECTION="ethernet"
+INTERFACE="bnep0"
+IP="dhcp"
+DHCP_TIMEOUT="30"

@@ -1,0 +1,1 @@
+DRIVER=="smapi", ATTR{BAT0/start_charge_thresh}="70", ATTR{BAT0/stop_charge_thresh}="80"

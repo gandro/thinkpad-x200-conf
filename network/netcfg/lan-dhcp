@@ -1,0 +1,5 @@
+CONNECTION="ethernet"
+INTERFACE="eth0"
+IP="dhcp"
+DHCP_TIMEOUT="30"
+CARRIER_TIMEOUT="5"

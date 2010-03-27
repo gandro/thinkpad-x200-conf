@@ -1,0 +1,2 @@
+PRE_UP="pand --connect 00:16:B8:4D:F0:FD --service NAP || sleep 8"
+POST_DOWN="pand --kill 00:16:B8:4D:F0:FD"

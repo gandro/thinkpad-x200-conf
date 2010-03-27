@@ -1,0 +1,7 @@
+<match key="info.product" contains="PS/2">
+ <merge key="input.x11_options.EmulateWheel" type="string">true</merge>
+ <merge key="input.x11_options.EmulateWheelButton" type="string">2</merge>
+ <merge key="input.x11_options.YAxisMapping" type="string">4 5</merge>
+ <merge key="input.x11_options.Emulate3Buttons" type="string">true</merge>
+ <merge key="input.x11_options.EmulateWheelTimeout" type="string">200</merge>
+</match>

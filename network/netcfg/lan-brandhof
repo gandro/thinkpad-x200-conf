@@ -1,0 +1,6 @@
+CONNECTION="ethernet"
+INTERFACE="eth0"
+IP="static"
+ADDR="192.168.1.42"
+GATEWAY="192.168.1.1"
+DNS=("192.168.1.1")

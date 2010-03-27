@@ -1,0 +1,10 @@
+SUBSYSTEM=="input" ATTRS{name}=="AT Translated Set 2 keyboard" SYMLINK+="input/keyboard"
+SUBSYSTEM=="input" ATTRS{name}=="Lid Switch" SYMLINK+="input/lid-switch"
+SUBSYSTEM=="input" ATTRS{name}=="Sleep Button" SYMLINK+="input/sleep-button"
+SUBSYSTEM=="input" ATTRS{name}=="Power Button" SYMLINK+="input/power-button"
+SUBSYSTEM=="input" ATTRS{name}=="Video Bus" SYMLINK+="input/video-bus"
+SUBSYSTEM=="input" ATTRS{name}=="ThinkPad Extra Buttons" SYMLINK+="input/thinkpad-extra"
+SUBSYSTEM=="input" ATTRS{name}=="HDA Intel Mic" SYMLINK+="input/intel-hda-mic"
+SUBSYSTEM=="input" ATTRS{name}=="HDA Intel Headphone" SYMLINK+="input/intel-hda-headphone"
+
+

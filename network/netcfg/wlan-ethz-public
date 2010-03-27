@@ -1,0 +1,8 @@
+CONNECTION="wireless"
+INTERFACE="wlan0"
+ESSID="public"
+SECURITY="none"
+IP="dhcp"
+DHCP_TIMEOUT="30"
+POST_UP="vpnc ethz"
+PRE_DOWN="vpnc-disconnect ; true"

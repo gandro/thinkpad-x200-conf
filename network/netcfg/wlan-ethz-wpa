@@ -1,0 +1,19 @@
+CONNECTION="wireless"
+INTERFACE="wlan0"
+SECURITY="wpa-configsection"
+ESSID="ethz"
+IP="dhcp"
+DHCP_TIMEOUT="30"
+CONFIGSECTION='
+    ssid="ethz"
+    key_mgmt=WPA-EAP
+    proto=WPA2
+    eap=TTLS
+    pairwise=CCMP TKIP
+    group=CCMP TKIP
+    phase2="auth=MSCHAPV2"
+    identity="swicki"
+    # create hash with nt_password_hash from hostapd sources
+    password=hash:MD4-HASH-HERE 
+    priority=10
+'

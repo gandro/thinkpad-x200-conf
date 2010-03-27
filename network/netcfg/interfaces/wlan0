@@ -1,0 +1,2 @@
+RFKILL="hard"
+RFKILL_NAME="phy0"

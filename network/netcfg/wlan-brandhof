@@ -1,0 +1,6 @@
+CONNECTION="wireless"
+INTERFACE="wlan0"
+ESSID="Brandhof"
+SECURITY="none"
+IP="dhcp"
+DHCP_TIMEOUT="30"

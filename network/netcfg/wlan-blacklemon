@@ -1,0 +1,7 @@
+CONNECTION="wireless"
+INTERFACE="wlan0"
+SECURITY="wpa"
+ESSID="BlackLemon"
+IP="dhcp"
+DHCP_TIMEOUT="30"
+KEY="WPA2-KEY-HERE"
