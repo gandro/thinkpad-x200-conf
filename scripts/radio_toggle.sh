@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# We can't do anything else 
+# We can't do anything else
 if rfkill list | grep -q 'Hard blocked: yes' ; then
     exit 1
 fi

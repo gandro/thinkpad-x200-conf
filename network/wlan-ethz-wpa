@@ -14,6 +14,6 @@ CONFIGSECTION='
     phase2="auth=MSCHAPV2"
     identity="swicki"
     # create hash with nt_password_hash from hostapd sources
-    password=hash:MD4-HASH-HERE 
+    password=hash:MD4-HASH-HERE
     priority=10
 '

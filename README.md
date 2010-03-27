@@ -2,7 +2,7 @@ ThinkPad X200 Configuration Files
 =================================
 
 This git repository contains all essential configuration files for Arch Linux 
-on my Lenovo ThinkPad X200. 
+on my Lenovo ThinkPad X200.
 
 Overview
 ========
@@ -22,7 +22,7 @@ Overview
 
   - scripts for additional hardware features
 
-`udev/` 
+`udev/`
 -------
 
   - udev rules (input devices renaming, vga hotplugging & smapi configuration)
