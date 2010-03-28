@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# ifplugd.action script for netcfg
+
+. /etc/rc.conf
+. /etc/rc.d/functions
+. /usr/lib/network/network
+
+if [ -n "$reason" ] ; then
+    if [ "$reason" = "TEST" ] ; then
+        profile="lan-dhcp"
+        case "$new_network_number" in
+            192.168.1.0)
+                if [ "$new_dhcp_lease_time" -eq 615781 ] ; then
+                    profile="lan-brandhof"
+                fi
+            ;;
+            *)
+            ;;
+        esac
+    fi
+    netcfg "$profile" ; exit $?
+fi
+
+case "$2" in
+  up)
+    dhcpcd -T -c "$0" -q -e "iface=$1" -t 10 eth0 && exit 0
+  ;;
+  down)
+    if check_iface "$1"; then
+        netcfg -i "$1" && exit 0
+    fi
+  ;;
+  *)
+    echo "Wrong arguments"
+  ;;
+esac
+
+exit 1
